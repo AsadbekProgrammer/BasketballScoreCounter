@@ -56,3 +56,13 @@ function add3PointGuest() {
         countGuest = 0;
     } 
 }
+
+function resHome() {
+    countHome = 0;
+    scoreHome.textContent = countHome;
+}
+
+function resGuest() {
+    countGuest = 0;
+    scoreGuest.textContent = countGuest;
+}
