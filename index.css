@@ -1,0 +1,56 @@
+@font-face {
+    font-family: CursedTU;
+    src: url('./fonts/CursedTimerUlil.ttf')
+}
+
+body {
+    margin: 0;
+    background-color:#1B244A;
+    color:#eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-card {
+    text-align: center;
+}
+
+.scores {
+    width:155px;
+    height:120px;
+    background-color: #080001;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 5px;
+}
+
+.score-number {
+    font-size:90px;
+    font-family: CursedTU;
+    color:#F94F6D;
+    margin:0;   
+}
+
+.add-points {
+    margin-top:26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.point {
+    background-color: inherit;
+    color:#9AABD8;
+    cursor:pointer;
+    font-family: CursedTU;
+    width:45px;
+    height:45px;
+    border:2px solid #9AABD8;
+    border-radius:5px;
+}
